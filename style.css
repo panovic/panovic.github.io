@@ -376,6 +376,9 @@ p a.email:hover {
 
 .item3 {
     padding-top: 20px;
+}
+
+.phone {
     text-decoration: none;
     color: #fff;
     font-size: 0.9em;
