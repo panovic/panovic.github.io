@@ -376,6 +376,8 @@ p a.email:hover {
 
 .item3 {
     padding-top: 20px;
+    text-decoration: none;
+    color: #fff;
 }
 
 .contact-container .footer-container {
