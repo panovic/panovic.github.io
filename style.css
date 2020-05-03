@@ -31,9 +31,10 @@ body {
 
 .top-nav-banner {
     display: flex;
-    height: 90px;
+    height: 70px;
     background-color: #47A1A2;
     flex-direction: row;
+
 }
 
 .logo-container {
@@ -42,12 +43,13 @@ body {
     display: flex;
     align-items: center;
     justify-content: left;
+
 }
 
 .logo-img {
-    width: 50px;
-    margin-right: 10px;
-    margin-left: 20px;
+    width: 150px;
+    margin-right: 30px;
+    margin-left: 30px;
 }
 
 .logo-font {
@@ -61,10 +63,40 @@ body {
 }
 
 #icon {
-    width: 40px;
+    width: 30px;
     cursor: pointer;
     margin: 30px;
 }
+/**small for graphics*/
+.cellery {
+  width: 100%;
+  height: auto;
+}
+.designer {
+  width: 80%;
+  height: auto;
+  padding: 100px;
+}
+.code {
+  width: 100%;
+  height: auto;
+  padding: 100px;
+}
+
+#img1 {
+  width: 100%;
+  height: auto;
+}
+#img2{
+  width: 100%;
+  height: auto;
+  padding: 10px;
+}
+#img3{
+  width: 100%;
+  height: auto;
+}
+
 
 .links {
     position: absolute;
@@ -79,9 +111,9 @@ nav {
     display: block;
     background-color: #EDEFEE;
     width: 60%;
-    top: 90px;
+    top: 70px;
     right: 0;
-    height: 30%;
+  /*  height: 30%;*/
 }
 
 ul {
@@ -96,7 +128,7 @@ ul li a {
     font-family: 'Montserrat', sans-serif;
     color: #000;
     text-transform: uppercase;
-    font-size: 1.1em;
+    font-size: 0.9em;
     display: block;
     padding: .7em 3em;
     background-color: rgba(255, 255, 255, .35);
@@ -107,7 +139,7 @@ ul li a:hover {
     font-family: 'Montserrat', sans-serif;
     color: #000;
     text-transform: uppercase;
-    font-size: 1.1em;
+    font-size: 0.9em;
     display: block;
     padding: .7em 3em;
     border-radius: 20px;
@@ -133,7 +165,7 @@ small device
 h3.header {
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.1em;
+    font-size: 2.3em;
     padding-bottom: 25px;
     color: #F98062;
 }
@@ -142,7 +174,8 @@ h1.header {
     font-family: 'Montserrat', sans-serif;
     color: #121922;
     text-align: center;
-    font-size: 2.2em;
+    font-size: 1.7em;
+    padding: 15px;
 }
 
 .highlighter {
@@ -161,7 +194,7 @@ p.header {
     font-size: 1.2em;
     margin-top: 10px;
     padding: 7px;
-    width: 70%;
+    /*width: 70%;*/
     background-color: rgba(255, 255, 255, .15);
     color: #000;
     border-radius: 8px;
@@ -169,16 +202,16 @@ p.header {
 
 
 /*********************************
-small device
+graphics section
 **********************************/
 
-.services-container {
+.graphics-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: rgba(255, 255, 255, .35);
-    margin: 10px 10px 60px 10px;
+    padding-top: 100px;
 }
 
 h2.sub-heading {
@@ -198,64 +231,29 @@ p.body-text {
 
 
 /*********************************
-small device
+small device photography section
 **********************************/
 
-.profile-container {
+.photography-container {
+    padding-top: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: rgba(255, 255, 255, .35);
-    /*border: 1px solid blue;*/
+
 }
 
-.profile-container .about-box {
-    /*border: 1px solid blue;*/
-    margin: 0;
-    padding: 0;
+/* photo gallery*/
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
 }
 
-*/ .profile-container .about-box p {
-    padding-bottom: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    font-size: 1.2em;
+#ph {
+    width:100%;
 }
 
-
-/* visit card box*/
-
-.profile-container .box {
-    padding: 20px;
-}
-
-.profile-container .box .content>h2 {
-    text-align: left;
-    margin: 0;
-    font-family: 'Montserrat', sans-serif;
-    color: #2C8C8C;
-    font-size: 1.5em;
-    text-transform: uppercase;
-}
-
-
-/*smaller screens*/
-
-.profile-container .box .content h3 {
-    text-align: left;
-    text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
-    color: rgba(19, 134, 134, .70);
-    margin-top: 10px;
-    font-size: 1em;
-}
-
-.profile-container .box .content p {
-    padding-top: 20px;
-    padding-left: 0px;
-    padding-right: 30px;
-    font-size: 1.2em;
-}
 
 .themecolor-2 {
     background-color: #89C9C7;
@@ -290,111 +288,89 @@ small device - contact
     background-color: #47A1A2;
 }
 
-.head-cont {
+.arrow {
     display: flex;
     justify-content: center;
     align-items: center;
     direction: column;
-    margin: 55px;
+    margin: 0px;
+      /*border: 1px solid yellow;*/
 }
 
 .main-heading {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     color: #121922;
-    text-transform: uppercase;
-    font-size: 1.6em;
-    margin-top: 30px 0 30px 0;
+    /*text-transform: uppercase;*/
+    font-size: 1.5em;
+    margin-top: 10px 0 30px 0;
     flex: 1 0 70%;
 }
 
 .arrow_services {
-    width: 40px;
-    height: 25px;
+    width: 20px;
+    height: 15px;
     cursor: pointer;
     margin: 20px;
 }
 
 .arrow_about {
-    width: 40px;
-    height: 25px;
+  width: 20px;
+  height: 15px;
     cursor: pointer;
     margin: 20px;
 }
 
 .arrow_contact {
-    width: 40px;
-    height: 25px;
+    width: 30px;
+    height: 20px;
     cursor: pointer;
     margin: 20px;
 }
 
 
-/*
-.contact-container .contact-box h1 {
-  text-align: center;
-  text-transform: uppercase;
-  font-size: 1.6em;
-  padding: 50px 0 30px 0;
-}
-*/
 
-.contact-container .info {
-    display: flex;
-    padding: 20px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+/****************************************
+small size device - footer - section 4
+*****************************************/
+
+ .main-footer-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: #47A1A2;
+    /*border: 1px solid yellow;*/
+
 }
 
-.contact-container .info .contact-info {
-    padding: 30px;
+.footer-logo{
+     /*border: 1px solid yellow;*/
+     padding: 40px;
+}
+/* logos container*/
+.logos{
+  padding: 0 25px;
+  width: 100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+/* items*/
+.logo {
+padding: 15px;
+/*border: 1px solid yellow;*/
+}
+
+#logo-img-footer {
+    width: 150px;
+/*border: 1px solid yellow;*/
+}
+
+
+
+#logo-foot-img{
     width: 100%;
-}
-
-.email {
-    padding-bottom: 8px;
-    background-color: #F98062;
-    color: #fff;
-    padding: 10px;
-    font-size: 0.9em;
-    text-decoration: none;
-    border-radius: 15px;
-}
-
-p a.email:hover {
-    background-color: rgb(250, 144, 117);
-}
-
-.item1 {
-    padding-bottom: 15px;
-}
-
-.item2 {
-    padding-bottom: 30px;
-}
-
-.item3 {
-    padding-top: 20px;
-}
-
-.phone {
-    text-decoration: none;
-    color: #fff;
-    font-size: 0.9em;
-}
-
-.contact-container .footer-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 25px;
-    color: #89C9C7;
-    font-size: 0.7em;
-}
-
-.logo-img-foot {
-    width: 40px;
+     /*border: 1px solid yellow;*/
 }
 
 
@@ -406,6 +382,26 @@ medium size device
     /*****************************
   medium size device - navigation banner - section 1
   ******************************/
+  .arrow_services {
+      width: 40px;
+      height: 25px;
+      cursor: pointer;
+      margin: 20px;
+  }
+
+  .arrow_about {
+      width: 40px;
+      height: 25px;
+      cursor: pointer;
+      margin: 20px;
+  }
+
+  .arrow_contact {
+      width: 40px;
+      height: 25px;
+      cursor: pointer;
+      margin: 20px;
+  }
     .burger-container {
         display: none;
     }
@@ -422,7 +418,7 @@ medium size device
         flex: 1 0 40%;
     }
     .logo-img {
-        width: 70px;
+        width: 170px;
         /*border: 1px solid red;*/
     }
     .logo-font {
@@ -478,7 +474,7 @@ medium size device
         height: 500px;
     }
     h3.header {
-        text-transform: uppercase;
+        /*text-transform: uppercase;*/
         font-family: 'Montserrat', sans-serif;
         font-size: 1.5em;
         padding-bottom: 25px;
@@ -488,7 +484,7 @@ medium size device
         font-family: 'Montserrat', sans-serif;
         color: #121922;
         text-align: center;
-        font-size: 2.6em;
+        font-size: 1.8em;
     }
     .highlighter {
         /*  background-color: #F04228;*/
@@ -502,42 +498,75 @@ medium size device
     p.header {
         font-family: 'Montserrat', sans-serif;
         text-align: center;
-        font-size: 1.6em;
+        font-size: 1.2em;
         margin-top: 10px;
         padding: 7px;
-        width: 70%;
+          /*width: 70%;*/
         background-color: rgba(255, 255, 255, .65);
         color: #000;
         border-radius: 8px;
     }
+    .img11 {
+      background-color: black;
+    }
     /****************************************
-        medium size device - services - section 3
+        medium size device - services - section 3 services-container
   *****************************************/
-    .services-container {
+    .graphics-container {
         display: flex;
         flex-direction: column;
         justify-content: center;
         background-color: rgba(255, 255, 255, .06);
-        margin: 80px 50px 60px 50px;
+        padding-top: 100px;
     }
     .services-header {
         display: flex;
         flex-direction: column;
     }
-    .head-cont {
+    .arrow {
         display: flex;
         justify-content: center;
         align-items: center;
         direction: row;
-        margin: 55px;
+        margin: 45px;
+        /*border: 1px solid yellow;*/
+    }
+    /*medium graphics*/
+    .designer {
+      width: 100%;
+      height: auto;
+
+    }
+    .code {
+
+      width: 80%;
+
+    }
+    .cellery {
+      width: 100%;
+      height: auto;
+    }
+
+    #img1 {
+      width: 100%;
+      height: auto;
+    }
+    #img2{
+      width: 100%;
+      height: auto;
+      padding: 10px;
+    }
+    #img3{
+      width: 100%;
+      height: auto;
     }
     .main-heading {
         text-align: center;
         font-family: 'Montserrat', sans-serif;
         color: #121922;
-        text-transform: uppercase;
+        /*text-transform: uppercase;*/
         font-size: 1.9em;
-        margin-top: 30px 0 30px 0;
+        margin-top: 10px 0 30px 0;
         flex: 1 0 80%;
     }
     .arrow_services {
@@ -552,16 +581,18 @@ medium size device
         flex-wrap: wrap;
     }
     .services-subheader-container>* {
-        flex: 1 1 160px;
+        flex: 1 1 260px;
         margin: 10px;
     }
     .services-subheader1 {
         flex: 1 0 300px;
     }
     .services-subheader2 {
+        align-self: center;
         flex: 1 0 300px;
     }
     .services-subheader3 {
+      align-self: center;
         flex: 1 0 300px;
     }
     .services-subheader4 {
@@ -597,76 +628,87 @@ medium size device
     /*********************************
   medium size device - profile - section 4
   *****************************************/
-    .profile-container {
+    .photography-container {
         display: flex;
         flex-direction: column;
         justify-content: center;
         background-color: rgba(255, 255, 255, .06);
         margin: 50px 50px 100px 50px;
-        padding: 3px;
+
     }
-    .profile-container>div {
-        margin: 15px;
+    /* photo gallery*/
+
+    .gallery-container{
+      display: flex;
+      flex-wrap: nowrap;
+      align-items: center;
+      justify-content: center;
+      background-color: #fff;
+      padding: 10px;
     }
-    .about-box {
-        display: flex;
-        flex-direction: column;
+
+    .first-column {
+      flex: 2;
+
+      /*  background-color: blue;*/
+}
+    .second-column {
+      flex:1;
+      display: flex;
+      flex-direction: column;
+align-items: center;
+justify-content: center;
+    /*  background-color: blue;*/
+
     }
-    /* photo box container*/
-    .box {
-        display: flex;
+    .second-a {
+      flex:1;
+
     }
-    .box .image-box {
-        width: 200px;
-        flex: 0 0 160px;
+    .second-b {
+        flex:1;
+
     }
-    .box .image-box img {
-        max-width: 100%;
+
+    #ph{
+      width: 100%;
+      padding: 10px;
     }
-    .box .content {
-        margin-left: 20px;
-        /*background-color: orange;*/
-    }
-    .box .content p {
-        padding: 10px 20px 20px 0;
-        text-align: justify;
-    }
+
+
     .themecolor-1 {
         background-color: #47A1A2;
     }
     /****************************************
   medium size device - footer - section 4
   *****************************************/
-    .contact-container {
+.main-footer-container {
         color: #121922;
         font-size: 1.2em;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        align-items: center;
         background-color: #47A1A2;
-    }
 }
-
-.contact-container .info {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    flex: 1 0 35%;
+.footer-logo{
+  /*border: 1px solid yellow;*/
+  padding: 50px;
 }
-
-.contact-container .info p {
-    text-align: right;
+/* logos container*/
+.logos{
+  padding: 20px;
+  width: 100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
 }
-
-.contact-container .footer-container {
-    color: #89C9C7;
-    flex: 1 0 50%;
-    justify-content: center;
+/* items*/
+.logo {
+  padding: 35px;
+/*border: 1px solid yellow;*/
 }
-
-.logo-img-foot {
-    width: 40px;
-    margin: 0;
+#logo-img-footer {
+    width: 250px;
 }
 
 
