@@ -213,7 +213,11 @@ graphics section
     background-color: rgba(255, 255, 255, .35);
     padding-top: 100px;
 }
-
+.broshures{
+  display: flex;
+  padding: 50px;
+  justify-content: space-around;
+}
 h2.sub-heading {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
@@ -373,6 +377,15 @@ padding: 15px;
      /*border: 1px solid yellow;*/
 }
 
+.img-border-2 {
+  padding: 40px;
+  background-color: #fff;
+  border: 25px solid white;
+}
+.img-border {
+    background-color: #fff;
+      border: 25px solid white;
+}
 
 /*****************************
 medium size device
@@ -554,11 +567,20 @@ medium size device
     #img2{
       width: 100%;
       height: auto;
-      padding: 10px;
+
     }
     #img3{
       width: 100%;
       height: auto;
+    }
+    .img-border-2 {
+      padding: 40px;
+      background-color: #fff;
+      border: 25px solid white;
+    }
+    .img-border {
+      background-color: #fff;
+        border: 25px solid white;
     }
     .main-heading {
         text-align: center;
